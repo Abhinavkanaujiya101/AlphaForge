@@ -9,6 +9,7 @@ interface HeaderProps {
   onReset: () => void;
 }
 
+
 export const Header: React.FC<HeaderProps> = ({ currentStep, onReset }) => {
   const stepLabels: Record<WizardStep, string> = {
     ask: 'Phase 1: Question Formulator',
