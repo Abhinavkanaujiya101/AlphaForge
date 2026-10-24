@@ -4,6 +4,7 @@ import React from 'react';
 import { Activity, RotateCcw, Sparkles, Terminal } from 'lucide-react';
 import { WizardStep } from '@/types/research';
 
+
 interface HeaderProps {
   currentStep: WizardStep;
   onReset: () => void;
