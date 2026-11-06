@@ -4,7 +4,6 @@ import React from 'react';
 import { Sliders, ArrowRight, ArrowLeft, ShieldCheck, Zap, Gauge, Calendar, Target } from 'lucide-react';
 import { ResearchParameters } from '@/types/research';
 
-
 interface StepClarifyProps {
   parameters: ResearchParameters;
   onUpdateParameters: (partial: Partial<ResearchParameters>) => void;
